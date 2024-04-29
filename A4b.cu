@@ -98,3 +98,9 @@ int main() {
 
     return 0;
 }
+
+//nvcc hello_world.cu -o hello_world
+blockIdx.x represents the index of the current block within the grid.
+blockDim.x represents the number of threads per block.
+threadIdx.x represents the index of the thread within its block.
+
